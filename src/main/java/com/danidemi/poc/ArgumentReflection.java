@@ -12,7 +12,7 @@ import org.objectweb.asm.tree.ClassNode;
 import org.objectweb.asm.tree.LocalVariableNode;
 import org.objectweb.asm.tree.MethodNode;
 
-public class Utils {
+public class ArgumentReflection {
 	/**
 	 * Returns a list containing one parameter name for each argument accepted
 	 * by the given constructor. If the class was compiled with debugging

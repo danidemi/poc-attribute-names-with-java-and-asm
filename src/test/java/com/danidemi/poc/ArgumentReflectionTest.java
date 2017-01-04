@@ -13,7 +13,7 @@ public class ArgumentReflectionTest {
 	@Test
 	public void shouldExtractTheNamesOfTheParameters3() throws NoSuchMethodException, SecurityException, IOException {
 
-		List<String> parameterNames = Utils
+		List<String> parameterNames = ArgumentReflection
 				.getParameterNames(Clazz.class.getMethod("callMe", String.class, String.class));
 		assertEquals("firstName", parameterNames.get(0));
 		assertEquals("lastName", parameterNames.get(1));
